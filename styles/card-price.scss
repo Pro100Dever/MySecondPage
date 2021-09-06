@@ -1,0 +1,122 @@
+.price-card {
+  position: relative;
+  margin-left: 18px;
+  padding: 33px 0 40px 0;
+  width: 380px;
+  height: 770px;
+  overflow: hidden;
+  background-color: $color-bg-gray;
+
+  &:first-child {
+    margin: 0;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 35px;
+    line-height: 43px;
+    font-weight: 700;
+    text-align: center;
+  }
+  &__sub-title {
+    margin: 0;
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  &__price {
+    margin: 0;
+    margin-top: 33px;
+    height: 105px;
+    line-height: 105px;
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center;
+
+    &-green {
+      background-color: $color-bg-green;
+    }
+    &-blue {
+      background-color: $color-bg-blue;
+    }
+    &-orange {
+      background-color: $color-bg-orange;
+    }
+  }
+
+  &__description {
+    margin: 40px 26px 0;
+    line-height: 18px;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  &__options-list {
+    list-style-type: none;
+    margin: 40px 0px 39px 0px;
+    padding: 0px;
+
+    &-item {
+      padding-left: 59px;
+      height: 50px;
+      line-height: 50px;
+      font-size: 15px;
+      font-weight: 300;
+
+      &:nth-child(odd) {
+        background-color: $color-bg-dark-gray;
+      }
+    }
+  }
+
+  &__order-btn {
+    display: block;
+    margin: 0 auto;
+    width: 154px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 300;
+    color: $color-text;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+
+    &-green {
+      background-color: $color-bg-green;
+    }
+    &-blue {
+      background-color: $color-bg-blue;
+    }
+    &-orange {
+      background-color: $color-bg-orange;
+    }
+  }
+
+  &__badge {
+    position: absolute;
+    transform: rotate(45deg);
+    top: 30px;
+    right: -30px;
+    width: 147px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: $color-bg-tape;
+    text-align: center;
+  }
+}
+.green-item {
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png)
+    no-repeat 22px 50%;
+}
+.blue-item {
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png)
+    no-repeat 22px 50%;
+}
+.orange-item {
+  background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png)
+    no-repeat 22px 50%;
+}

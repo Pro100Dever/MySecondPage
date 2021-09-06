@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  color: $color-text;
+}
+
+.price-tables {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: -3px;
+  width: 1440px;
+  height: 100vh;
+  background-color: $color-bg-black;
+}
+
