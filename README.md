@@ -2,7 +2,6 @@
 
 ### [My Second Page](https://pro100dever.github.io/MySecondPage/)
 
-
 Layout supports desktop (up-to-1440) versions
 ### The tech stack is:
 
